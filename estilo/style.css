@@ -41,3 +41,30 @@ iframe{
     height:472px ;
     width:267px ;
 }
+
+#redes-sociais {
+    display: inline-block;
+    background-color: rgba(247, 182, 2, 0.338);
+    padding: 10px;
+    margin: 10px;
+    text-align: left;
+    border-radius: 20px;
+    border: 2px solid;
+    
+}
+
+#redes-sociais img{
+    height: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.669);
+    box-sizing: border-box;
+}
+
+#redes-sociais img:hover {
+border:3px solid rgba(253, 252, 252, 0.603);
+transform: translate(10px);
+box-shadow: 0px 0px 30px rgba(252, 251, 251, 0.47);
+transition: transform .5s, border .5s;
+
+}
