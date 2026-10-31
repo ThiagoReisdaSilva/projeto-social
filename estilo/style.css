@@ -43,11 +43,14 @@ iframe{
 }
 
 #redes-sociais {
+    position: relative;
+    top: 130px;
+    left: 14px;
     display: inline-block;
     background-color: rgba(247, 182, 2, 0.338);
-    padding: 1px;
+   /* padding: 1px;
     margin: 10px;
-    margin-top: 100px;
+    margin-top: 100px;*/
     text-align: left;
     border-radius: 20px;
     border: 2px solid;
@@ -55,7 +58,7 @@ iframe{
 }
 
 #redes-sociais img{
-    height: 30px;
+    height: 40px;
     margin: 10px;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.669);
